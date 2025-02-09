@@ -6,7 +6,6 @@
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
     "@fontsource/alex-brush": "^5.1.1",
-    "@fontsource/allura": "^5.1.1",
     "@fontsource/roboto": "^5.1.1",
     "@fontsource/roboto-slab": "^5.1.1",
     "@mui/icons-material": "^6.4.1",
