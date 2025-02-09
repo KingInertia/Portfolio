@@ -1,0 +1,37 @@
+{
+  "ProfileBar": {
+    "phrases": {
+      "craftingReact": "Crafting modern, scalable, and user-friendly web experiences with React.",
+      "buildingDjango": "Building powerful back-end systems using Django.",
+      "passionateLearning": "Passionate about learning new technologies and improving development processes.",
+      "optimizedSolutions": "Dedicated to creating optimized and efficient solutions."
+    },
+    "titles": {
+      "fullStackEngineer": "Full Stack Engineer:",
+      "myCV": "My CV",
+      "myName": "Andriy Katroshenko",
+      "Hi": "Hi, I'm"
+    }
+  },
+  "NavBar": {
+    "navItems": {
+      "home": "Home",
+      "skills": "Skills",
+      "projects": "Projects"
+    }
+  },
+  "PersonalInfo": {
+    "aboutMe": "About me ?",
+    "description": "I am a full-stack developer with a deep passion for creating seamless digital solutions. My journey in the world of programming began with a curiosity for how things work behind the scenes, and now I am dedicated to building both the back-end and front-end of web applications. On the back-end, I specialize in Django, crafting robust and scalable solutions. On the front-end, I work with React, bringing intuitive and interactive user interfaces to life. Though I am still early in my development career, my drive for learning and constant self-improvement keeps me moving forward. Just as Mozart composed symphonies with precision and emotion, I write code with the same passion and dedication, striving for harmony in every project I touch. With a solid foundation in Python, C#, JavaScript, and modern web technologies, I am always exploring new tools and trends to stay at the forefront of the industry. I look forward to collaborating with like-minded professionals and contributing to projects that challenge me to grow."
+  },
+  "SkillsInfo": {
+    "aboutMySkills": "About my skills:"
+  },
+  "ProjectsInfo": {
+    "view": "View",
+    "viewSite": "View the site:",
+    "myProjects": "My projects",
+    "companyTrainingSystem": "Company Training Management System",
+    "portfolio": "Portfolio"
+  }
+}
