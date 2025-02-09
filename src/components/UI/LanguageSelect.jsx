@@ -11,7 +11,7 @@ import {
 
 const LanguageSelect = () => {
   const { i18n } = useTranslation()
-  const [language, setLanguage] = React.useState(i18n.language)
+  const [language, setLanguage] = React.useState(i18n.language || 'en')
 
   const langChange = (event) => {
     const lang = event.target.value
