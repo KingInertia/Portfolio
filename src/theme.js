@@ -1,5 +1,4 @@
 import { createTheme } from '@mui/material/styles'
-import '@fontsource/allura'
 import '@fontsource/roboto-slab'
 
 const theme = createTheme({
