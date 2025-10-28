@@ -2,6 +2,7 @@ import React from 'react'
 import { Box, Typography, Link } from '@mui/material'
 import ProjCard from './UI/ProjCard'
 import { useTranslation } from 'react-i18next'
+import { Padding } from '@mui/icons-material'
 
 const imagesCompanyTraining = [
   '/images/company-training/proj1-profile.png',
@@ -9,8 +10,8 @@ const imagesCompanyTraining = [
   '/images/company-training/proj1-start.png',
   '/images/company-training/proj1-statistics.png',
 ]
-
 const imagesPortfolio = ['/images/portfolio.png', '/images/portfolio-2.png']
+const imagesNotes = ['/images/notes/notes-hero.png','/images/notes/notes-note.png', ]
 
 const ProjectsInfo = () => {
   const { t } = useTranslation()
@@ -41,7 +42,7 @@ const ProjectsInfo = () => {
         sx={{
           display: 'flex',
           flexDirection: { xs: 'column', md: 'row' },
-          gap: { xs: 4, md: 20 },
+          gap: { xs: 4, md: 4 },
         }}
       >
         <ProjCard
@@ -87,6 +88,14 @@ const ProjectsInfo = () => {
               >
                 {t('ProjectsInfo.view')}
               </Link>
+               <br/>
+                {'Stack backend: Python, Django REST,'}
+              <br/>
+              {' Django channels, Celery.'}
+              <br/>
+                {'Stack frontend: JS, React, Redux, Material UI, ChartJS,'}
+                <br/>
+                {'Axios, i18next.'}
             </Typography>
           </>
         </ProjCard>
@@ -111,6 +120,50 @@ const ProjectsInfo = () => {
               >
                 {t('ProjectsInfo.view')}
               </Link>
+              <br/>
+                {t('Stack: JS, React, Material UI.')}
+               
+            </Typography>
+          </>
+        </ProjCard>
+           <ProjCard name={t('ProjectsInfo.notes')} images={imagesNotes}>
+          {' '}
+          <>
+            {' '}
+            <Typography
+              variant="body1"
+              sx={{
+                fontSize: { xs: '16px', md: '18px' },
+                fontFamily: "'Roboto Slab', serif",
+              }}
+            >
+              {t('ProjectsInfo.inDevelop')}{' '}
+              <br/>
+              {'GitHub backend'}:{' '}
+              <Link
+                href="https://github.com/KingInertia/rememberall-back"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ cursor: 'pointer' }}
+              >
+                {t('ProjectsInfo.view')}
+
+              </Link>
+              <br/>
+               {'GitHub frontend'}:{' '}
+              <Link
+                href="https://github.com/KingInertia/remember-all-front"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ cursor: 'pointer' }}
+              >
+                {t('ProjectsInfo.view')}
+              </Link>
+              <br/>
+                {t('Stack frontend: TypeScript, React, Redux, Tilewindcss.')}
+               <br/>
+                {t('Stack backend: Python, Django, REST framework.')}
+              
             </Typography>
           </>
         </ProjCard>

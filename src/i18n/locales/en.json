@@ -32,6 +32,8 @@
     "viewSite": "View the site:",
     "myProjects": "My projects",
     "companyTrainingSystem": "Company Training Management System",
-    "portfolio": "Portfolio"
+    "portfolio": "Portfolio",
+    "notes": "Notes on the Zettelkasten System",
+    "inDevelop": "(In active development)"
   }
 }

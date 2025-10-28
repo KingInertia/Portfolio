@@ -13,6 +13,7 @@ const images = [
   '/images/logos/JS.png',
   '/images/logos/React.png',
   '/images/logos/MUI.png',
+  '/images/logos/tailwindcss.png',
   '/images/logos/Redux.png',
 ]
 
@@ -193,7 +194,7 @@ const SkillsInfo = () => {
                         paddingBottom: 1,
                       }}
                     >
-                      javaScript + react + redux + materialUI
+                      javaScript + react + redux + materialUI + tailwindcss
                     </Typography>
                   </Box>
                 </Box>
