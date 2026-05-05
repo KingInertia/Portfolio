@@ -81,7 +81,7 @@ const MobileSkillsBar = () => {
                     paddingBottom: { xs: 1, sm: 1, md: 1 },
                   }}
                 >
-                  python + django + / <br /> django_rest_framework + / <br /> c#
+                  python + django + / <br /> FastAPI + / <br /> ASP.NET Core + MS SQL Server
                   + postgreSQL
                 </Typography>
                 <Typography

@@ -167,7 +167,7 @@ const SkillsInfo = () => {
                         paddingBottom: { xs: 1, md: 1 },
                       }}
                     >
-                      python + django + django_rest_framework + c# + postgreSQL
+                      python + django + FastApi + ASP.NET Core + postgreSQL + MS SQL Server
                     </Typography>
                   </Box>
 
