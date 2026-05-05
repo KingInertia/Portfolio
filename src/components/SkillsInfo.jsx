@@ -154,7 +154,7 @@ const SkillsInfo = () => {
                   >
                     <Typography
                       sx={{
-                        fontSize: '60px',
+                        fontSize: '58px',
                         fontFamily: "'Ouvality', cursive",
                       }}
                     >
@@ -162,7 +162,7 @@ const SkillsInfo = () => {
                     </Typography>
                     <Typography
                       sx={{
-                        fontSize: '30px',
+                        fontSize: '29px',
                         fontFamily: "'Roboto Slab', serif",
                         paddingBottom: { xs: 1, md: 1 },
                       }}

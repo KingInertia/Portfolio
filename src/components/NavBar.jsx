@@ -63,7 +63,6 @@ const NavBar = () => {
           variant="h4"
           component="div"
           sx={{
-            color: 'white',
             fontFamily: "'Ouvality', cursive",
             flexGrow: 1,
             display: 'flex',

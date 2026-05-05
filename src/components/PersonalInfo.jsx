@@ -55,7 +55,6 @@ const PersonalInfo = () => {
       </Box>
       <Box
         sx={{
-          marginLeft: 'auto',
           paddingX: { xs: 0, md: 4 },
           paddingY: { xs: 0, md: 4 },
           marginY: { xs: 0, md: 8 },
