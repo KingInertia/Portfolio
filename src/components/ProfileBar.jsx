@@ -6,12 +6,12 @@ import { useTranslation } from 'react-i18next'
 
 const ProfileBar = () => {
   const { t } = useTranslation()
-  const phrases = [
+  const phrases = React.useMemo(() => [
     t('ProfileBar.phrases.craftingReact'),
     t('ProfileBar.phrases.buildingDjango'),
     t('ProfileBar.phrases.passionateLearning'),
     t('ProfileBar.phrases.optimizedSolutions'),
-  ]
+  ], [t])
 
   const [text, setText] = useState('')
   const [currentPhraseIndex, setCurrentPhraseIndex] = useState(0)
@@ -34,7 +34,7 @@ const ProfileBar = () => {
     }
 
     typeText()
-  }, [currentPhraseIndex])
+  }, [currentPhraseIndex, phrases])
 
   return (
     <Box

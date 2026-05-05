@@ -9,7 +9,6 @@ const MobileSkillsBar = () => {
         flexDirection: 'column',
         justifyContent: { xs: 'center' },
         width: '100%',
-        display: 'flex',
         alignItems: 'center',
       }}
     >
